@@ -15,7 +15,7 @@ yarn create next-app -e with-tailwindcss opensea-blockchain-clone
 
 https://www.sanity.io/cleverprogrammer
 
-'''
+```
 npm install -g @sanity/cli
 sanity init --coupon cleverprogrammer  
 ```
