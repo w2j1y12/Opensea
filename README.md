@@ -1,7 +1,7 @@
 # Opensea
 
-Github : https://github.com/CleverProgrammers/opensea-blockchain-youtube
-Youtube : https://www.youtube.com/watch?v=x3eRXeMB-4k
+### Github : https://github.com/CleverProgrammers/opensea-blockchain-youtube
+### Youtube : https://www.youtube.com/watch?v=x3eRXeMB-4k
 
 ## Setting up Next.js
 
