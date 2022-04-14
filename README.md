@@ -36,3 +36,5 @@ import {MdOutlineAccountBalanceWallet} from 'react-icons/md'
 ```
 
 
+```
+yarn add @3rdweb/sdk 
