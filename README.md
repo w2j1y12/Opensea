@@ -19,12 +19,6 @@ yarn add @3rdweb/sdk
 ###### sanity는 블로그, 쇼핑몰 등에서 사용하는 여러 컨텐츠를 다양한 bulit-in 기능 등을 이용해 편리하게 관리할 수 있는 콘텐츠 관리 시스템
 ###### Thirdweb은 web3 프로젝트를 실행 및 관리할 수 있는 소프트웨어
 ###### Alchemy API는 블록체인 API
-
-## Hero
-![image](https://user-images.githubusercontent.com/62472117/163810338-f2f9597d-fa72-4e11-a7d1-7dd971609a49.png)
-![image](https://user-images.githubusercontent.com/62472117/163810360-402f97dd-aa5d-4705-87db-2d1dbbe905a8.png)
-
-## Add NFT Detail Page
 ```
 const Nft = () => {
     const { provider } = useWeb3()
@@ -54,6 +48,12 @@ const Nft = () => {
         })()
       }, [nftModule])
 ```
+
+## Hero
+![image](https://user-images.githubusercontent.com/62472117/163810338-f2f9597d-fa72-4e11-a7d1-7dd971609a49.png)
+![image](https://user-images.githubusercontent.com/62472117/163810360-402f97dd-aa5d-4705-87db-2d1dbbe905a8.png)
+
+## Add NFT Detail Page
 ![image](https://user-images.githubusercontent.com/62472117/163811334-54927a67-f076-4596-8641-0dff986bc36f.png)
 ![image](https://user-images.githubusercontent.com/62472117/163811394-1e9fbcb2-6b3e-483e-9234-0a33ef7f7a13.png)
 ![image](https://user-images.githubusercontent.com/62472117/163811436-cbce31b8-3c06-4985-9bd7-cabb62c83acc.png)
