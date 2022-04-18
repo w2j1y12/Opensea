@@ -23,8 +23,6 @@ yarn add @3rdweb/sdk
 
 ## Add NFT Detail Page
 
-```
-
 ![image](https://user-images.githubusercontent.com/62472117/163811334-54927a67-f076-4596-8641-0dff986bc36f.png)
 ![image](https://user-images.githubusercontent.com/62472117/163811394-1e9fbcb2-6b3e-483e-9234-0a33ef7f7a13.png)
 ![image](https://user-images.githubusercontent.com/62472117/163811436-cbce31b8-3c06-4985-9bd7-cabb62c83acc.png)
