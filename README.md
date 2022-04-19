@@ -15,11 +15,11 @@ npm install -g @sanity/cli
 sanity init --coupon cleverprogrammer  
 yarn add @3rdweb/sdk 
 ```
+###### Rinkeby는 Ethereum testnet
 ###### Tailwind CSS는 Utility-First 컨셉을 가진 CSS 프레임워크
 ###### sanity는 블로그, 쇼핑몰 등에서 사용하는 여러 컨텐츠를 다양한 bulit-in 기능 등을 이용해 편리하게 관리할 수 있는 콘텐츠 관리 시스템
 ###### Thirdweb은 web3 프로젝트를 실행 및 관리할 수 있는 소프트웨어
 ###### Alchemy API는 블록체인 API
-###### Rinkeby는 Ethereum testnet
 
 ```
 const Nft = () => {
