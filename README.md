@@ -21,6 +21,25 @@ yarn add @3rdweb/sdk
 ###### Thirdweb은 web3 프로젝트를 실행 및 관리할 수 있는 소프트웨어
 ###### Alchemy API는 블록체인 API
 
+## Hero
+![image](https://user-images.githubusercontent.com/62472117/163810338-f2f9597d-fa72-4e11-a7d1-7dd971609a49.png)
+![image](https://user-images.githubusercontent.com/62472117/163810360-402f97dd-aa5d-4705-87db-2d1dbbe905a8.png)
+
+## Add NFT Detail Page
+
+###### Sanity 연결
+```
+import sanityClient from '@sanity/client'
+
+export const client = sanityClient({
+    projectId: '2c5itk6l',
+    dataset: 'production',
+    apiVersion: '2021-03-25',
+    token: 'sktpV2Zxt57Q3MyCGMzAcmompxXyEiCyK0Urr9K6ucCKiwUBmbK6nPYx8PoWuJyWHta4S1pqjt67o2allHKMIGr0nwPwVqPkFtGeDaV1vkmS3qRaDpWJgMO35PmG2ETXeGifSV6YDZ2LBc1LSnKWi3WJYPK87GyaZ4ZwZSO4mJA3q5eeBIv6',
+    useCdn: false,
+})
+```
+###### Thirdweb 연결
 ```
 const Nft = () => {
     const { provider } = useWeb3()
@@ -49,22 +68,6 @@ const Nft = () => {
           setSelectedNft(selectedNftItem)
         })()
       }, [nftModule])
-```
-## Hero
-![image](https://user-images.githubusercontent.com/62472117/163810338-f2f9597d-fa72-4e11-a7d1-7dd971609a49.png)
-![image](https://user-images.githubusercontent.com/62472117/163810360-402f97dd-aa5d-4705-87db-2d1dbbe905a8.png)
-
-## Add NFT Detail Page
-```
-import sanityClient from '@sanity/client'
-
-export const client = sanityClient({
-    projectId: '2c5itk6l',
-    dataset: 'production',
-    apiVersion: '2021-03-25',
-    token: 'sktpV2Zxt57Q3MyCGMzAcmompxXyEiCyK0Urr9K6ucCKiwUBmbK6nPYx8PoWuJyWHta4S1pqjt67o2allHKMIGr0nwPwVqPkFtGeDaV1vkmS3qRaDpWJgMO35PmG2ETXeGifSV6YDZ2LBc1LSnKWi3WJYPK87GyaZ4ZwZSO4mJA3q5eeBIv6',
-    useCdn: false,
-})
 ```
 ![image](https://user-images.githubusercontent.com/62472117/163811334-54927a67-f076-4596-8641-0dff986bc36f.png)
 ![image](https://user-images.githubusercontent.com/62472117/163811394-1e9fbcb2-6b3e-483e-9234-0a33ef7f7a13.png)
